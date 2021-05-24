@@ -1,0 +1,51 @@
+.body {
+    font-family: 'Crimson Text', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color:#1E0606;
+    font-style: normal;
+    
+
+}
+
+a{
+    text-decoration: none;
+    display: block;
+}
+
+/*header*/
+
+.logo{
+    margin: auto;
+}
+
+
+.header_menu > a{
+
+    display: flex;
+    margin: auto;
+    width: 38px;
+    height: 20px;
+    left: 157px;
+
+    
+
+}
+
+
+
+.dots-none li {
+    list-style-type: none;
+}
+
+button{
+
+    width: 149px;
+    height: 40px;
+    top: 1705px;
+    left:  710px;
+    padding: 9px, 22px, 9px, 22px;
+    background: #000000, ;
+}
+
