@@ -1,4 +1,5 @@
-.body {
+
+body {
     font-family: 'Crimson Text', serif;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -9,28 +10,53 @@
 
 }
 
-a{
-    text-decoration: none;
-    display: block;
+button {
+	display: flex;
+flex-direction: row;
+align-items: center;
+padding: 9px 22px;
+
+position: absolute;
+width: 149px;
+height: 40px;
+left: 710px;
+top: 1705px;
+background: #000000;
 }
+
 
 /*header*/
 
 .logo{
-    margin: auto;
-    padding: auto;
+  margin: 60px;
+	position: absolute;
+  left: -0.25%;
+  right: 91.76%;
+  top: 0%;
+  bottom: 0%;
+
+
 }
 
 
-.header_menu > a{
 
-    display: flex;
-    margin: auto;
-    width: 38px;
-    height: 20px;
-    left: 157px;
 
-    
+
+.header-menu > a{
+  position: absolute;
+left: 13.34%;
+right: 83.43%;
+top: 30.77%;
+bottom: 30.77%;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-transform: uppercase;
 
 }
 
@@ -40,13 +66,20 @@ a{
     list-style-type: none;
 }
 
-button{
+.navi-point {
+  position: absolute;
+left: 13.34%;
+right: 83.43%;
+top: 30.77%;
+bottom: 30.77%;
 
-    width: 149px;
-    height: 40px;
-    top: 1705px;
-    left:  710px;
-    padding: 9px, 22px, 9px, 22px;
-    background: #000000, ;
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
 }
-
