@@ -1,4 +1,37 @@
 button{
     color: aliceblue;
     background-color: black;
+    padding: 9px 22px;
 }
+
+/* slide */
+
+section.slide{
+    display: flex;
+    background-color: #EEE4DB;
+}
+
+button.slide{
+    font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 22px;
+}
+
+.text-banner{
+    display: flex;
+    justify-content: space-around;
+    background-color: #C29974;
+}
+
+.banner-text{
+    font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 16px;
+color: white;
+}
+    
+
