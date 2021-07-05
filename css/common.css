@@ -25,18 +25,15 @@ button {
   border: none;
 }
 
-button:hover{
-  background-color:   rgba(194, 153, 116, 1) ;
-  
+button:hover {
+  background-color: rgba(194, 153, 116, 1);
 }
 
-button:active{
+button:active {
   background-color: rgba(207, 175, 145, 1);
-  
 }
-button:disabled{
+button:disabled {
   background-color: rgba(199, 193, 193, 1);
-  
 }
 
 a {
@@ -56,12 +53,10 @@ a {
   align-items: center;
 }
 
-.logo:hover{
-  
-opacity:0.5;
-
+.logo:hover {
+  opacity: 0.5;
 }
-.logo:active{
+.logo:active {
   opacity: 0.2;
 }
 
@@ -76,10 +71,10 @@ opacity:0.5;
   margin-right: 20px;
 }
 
-.navi-point a:hover{
-  color:rgb(142,130,130 )
+.navi-point a:hover {
+  color: rgb(142, 130, 130);
 }
-.navi-point a:active{
+.navi-point a:active {
   color: rgb(210, 205, 205);
 }
 
@@ -87,8 +82,6 @@ opacity:0.5;
   display: block;
   width: 69px;
 }
-
-
 
 .search-menu {
   display: flex;
@@ -104,11 +97,11 @@ opacity:0.5;
   border: none;
 }
 
-.search:hover{
+.search:hover {
   opacity: 0.5;
 }
 
-.search:active{
+.search:active {
   opacity: 0.2;
 }
 
@@ -118,11 +111,11 @@ opacity:0.5;
   color: #1e0606;
 }
 
-.contact:hover{
-  color:rgb(142,130,130 )
+.contact:hover {
+  color: rgb(142, 130, 130);
 }
 
-.contact:active{
+.contact:active {
   color: rgb(210, 205, 205);
 }
 
@@ -150,24 +143,23 @@ opacity:0.5;
   align-items: flex-start;
 }
 
-.footer-brends a{
+.footer-brends a {
   padding-right: 10px;
 }
-.footer-brends a:hover{
+.footer-brends a:hover {
   opacity: 0.5;
 }
-.footer-brends a:active{
+.footer-brends a:active {
   opacity: 0.2;
 }
 
 .subtitle-nav {
-    color: #aaaaaa;
-    width: 100%;
-    border-bottom: 1px solid;
-    border-top-color:rgba(102, 102, 102, 1);
-    padding-bottom: 23px;
-    margin-bottom: 0;
-
+  color: #aaaaaa;
+  width: 100%;
+  border-bottom: 1px solid;
+  border-top-color: rgba(102, 102, 102, 1);
+  padding-bottom: 23px;
+  margin-bottom: 0;
 }
 
 .footer-menu {
@@ -182,39 +174,35 @@ opacity:0.5;
   color: #ffffff;
 }
 
-.footer-point:hover{
-opacity: 0.5;
+.footer-point:hover {
+  opacity: 0.5;
 }
 
-.footer-point:active{
+.footer-point:active {
   opacity: 0.2;
 }
 
-
-
-.form{
+.form {
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-bottom: 25px;
   padding-top: 25px;
-
 }
 
-.email{
+.email {
   height: 40px;
 }
 
-.email:hover{
-border: inset 1px rgba(253, 253, 253, 1);
-    }
-
-.email:active:active{
+.email:hover {
   border: inset 1px rgba(253, 253, 253, 1);
 }
 
+.email:active:active {
+  border: inset 1px rgba(253, 253, 253, 1);
+}
 
-button.email-button{
+button.email-button {
   width: 81px;
   height: 40px;
   font-family: Open Sans;
@@ -223,7 +211,6 @@ button.email-button{
   font-size: 16px;
   line-height: 22px;
 }
-
 
 .footer-menu li {
   margin-bottom: 15px;
@@ -235,13 +222,12 @@ button.email-button{
   align-items: center;
 }
 
-.company-rating p:hover{
+.company-rating p:hover {
   color: rgba(194, 153, 116, 1);
 }
-.company-rating p:active{
+.company-rating p:active {
   color: rgba(194, 153, 116, 1);
 }
-
 
 .button-star {
   display: flex;
@@ -271,24 +257,23 @@ button.email-button{
   color: #a2a2a2;
   padding-right: 30px;
 }
-.design:hover{
+.design:hover {
   text-decoration: underline;
   color: #ffffff;
 }
-.design:active{
+.design:active {
   text-decoration: underline;
   color: #ffffff;
 }
-
 
 .star {
   background-color: transparent;
   border: none;
 }
 
-.star svg:hover{
+.star svg:hover {
   color: rgba(131, 110, 91, 1);
 }
-.star svg:active{
-  color:rgba(194, 153, 116, 1);
+.star svg:active {
+  color: rgba(194, 153, 116, 1);
 }
