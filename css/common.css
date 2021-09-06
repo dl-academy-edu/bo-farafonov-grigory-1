@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: "Crimson Text", serif;
+  font-family: "Crimson Text", serif; 
   font-family: "Montserrat", sans-serif;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -96,13 +96,13 @@ a {
   background-color: transparent;
   border: none;
 }
+.search:hover{
+  background-color: transparent;
+  cursor: pointer;
+}
 
 .search:hover {
   opacity: 0.5;
-}
-
-.search:active {
-  opacity: 0.2;
 }
 
 .contact {
@@ -139,18 +139,19 @@ a {
 .footer-wrapper {
   display: flex;
   flex-direction: column;
-  width: 25%;
+  width: 32%;
   align-items: flex-start;
 }
 
 .footer-brends a {
   padding-right: 10px;
 }
+
 .footer-brends a:hover {
   opacity: 0.5;
 }
-.footer-brends a:active {
-  opacity: 0.2;
+.footer-brends a:focus {
+  opacity: 0.5;
 }
 
 .subtitle-nav {
@@ -177,10 +178,10 @@ a {
 .footer-point:hover {
   opacity: 0.5;
 }
-
-.footer-point:active {
-  opacity: 0.2;
+.footer-point:focus {
+  opacity: 0.5;
 }
+
 
 .form {
   display: flex;
@@ -198,9 +199,6 @@ a {
   border: inset 1px rgba(253, 253, 253, 1);
 }
 
-.email:active:active {
-  border: inset 1px rgba(253, 253, 253, 1);
-}
 
 button.email-button {
   width: 81px;
@@ -229,12 +227,6 @@ button.email-button {
   color: rgba(194, 153, 116, 1);
 }
 
-.button-star {
-  display: flex;
-  padding-left: 20px;
-  max-width: 97px;
-  margin-right: 10px;
-}
 
 .footer-info {
   display: flex;
@@ -244,6 +236,7 @@ button.email-button {
   border-color: #666666;
   padding-top: 23px;
   color: #ffffff;
+  margin-bottom: 35px;
 }
 
 .info {
@@ -255,25 +248,54 @@ button.email-button {
   display: block;
   max-width: 33%;
   color: #a2a2a2;
-  padding-right: 30px;
+  margin-right: 115px;
 }
 .design:hover {
   text-decoration: underline;
   color: #ffffff;
 }
-.design:active {
+.design:focus {
   text-decoration: underline;
   color: #ffffff;
 }
 
-.star {
-  background-color: transparent;
-  border: none;
+.rating-area {
+	overflow: hidden;
+	width: 120px;
+	margin: 0 auto;
 }
-
-.star svg:hover {
-  color: rgba(131, 110, 91, 1);
+.rating-area:not(:checked) > input {
+	display: none;
 }
-.star svg:active {
-  color: rgba(194, 153, 116, 1);
+.rating-area:not(:checked) > label {
+	float: right;
+	width: 20px;
+	padding: 0;
+	cursor: pointer;
+	font-size: 17px;
+	line-height: 32px;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+.rating-area:not(:checked) > label:before {
+	content: '★';
+}
+.rating-area > input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px #c60;
+}
+.rating-area:not(:checked) > label:hover,
+.rating-area:not(:checked) > label:hover ~ label {
+	color: gold;
+}
+.rating-area > input:checked + label:hover,
+.rating-area > input:checked + label:hover ~ label,
+.rating-area > input:checked ~ label:hover,
+.rating-area > input:checked ~ label:hover ~ label,
+.rating-area > label:hover ~ input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px goldenrod;
+}
+.rate-area > label:active {
+	position: relative;
 }
